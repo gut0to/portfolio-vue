@@ -1,0 +1,19 @@
+[
+    {
+      "id": "enmc-2025",
+      "title": "ENMC 2025 App",
+      "slug": "enmc-2025",
+      "tags": ["Laravel", "API", "Flutter"],
+      "role": "Backend",
+      "tech": ["Laravel 10", "MySQL", "JWT", "Flutter"],
+      "date": "2025-06-15",
+      "repo_url": "",
+      "live_url": "",
+      "images": [],
+      "summary": "API para app do ENMC 2025.",
+      "problem": "Gerenciar participantes, perfis e posts, com QR Code.",
+      "solution": "API REST segura com autenticação JWT e perfis.",
+      "outcomes": ["Entrega no prazo", "Base para 10k+ usuários"]
+    }
+  ]
+  
