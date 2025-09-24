@@ -1,19 +1,56 @@
 [
-    {
-      "id": "enmc-2025",
-      "title": "ENMC 2025 App",
-      "slug": "enmc-2025",
-      "tags": ["Laravel", "API", "Flutter"],
-      "role": "Backend",
-      "tech": ["Laravel 10", "MySQL", "JWT", "Flutter"],
-      "date": "2025-06-15",
-      "repo_url": "",
-      "live_url": "",
-      "images": [],
-      "summary": "API para app do ENMC 2025.",
-      "problem": "Gerenciar participantes, perfis e posts, com QR Code.",
-      "solution": "API REST segura com autenticação JWT e perfis.",
-      "outcomes": ["Entrega no prazo", "Base para 10k+ usuários"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "ENMC 2025 – Plataforma do Evento",
+    "description": "Backend em Laravel para app de evento: posts com imagens, likes, perfis com QR Code, permissões por papel e armazenamento público seguro.",
+    "stack": ["Laravel 10", "PHP", "MySQL", "JWT", "Storage", "Redis (opcional)"],
+    "repo_url": null,
+    "live_url": null,
+    "year": "2025"
+  },
+  {
+    "id": 2,
+    "title": "Sistema de Requisições & Prestação de Contas",
+    "description": "Sistema web completo em Laravel com fluxo de adiantamento, anexos, aprovação em etapas e painel administrativo.",
+    "stack": ["Laravel 10", "Blade", "MySQL", "Policies/RBAC"],
+    "repo_url": null,
+    "live_url": null,
+    "year": "2024"
+  },
+  {
+    "id": 3,
+    "title": "AI Commit — CLI para mensagens de commit",
+    "description": "Ferramenta de linha de comando em Python que gera mensagens de commit no padrão Conventional Commits a partir do git diff usando a Gemini API. Suporta idiomas, tipos (feat/fix/docs...), escopo e integração direta com o repositório local.",
+    "stack": ["Python", "Gemini API", "Conventional Commits", "Git", "PyInstaller", "dotenv"],
+    "repo_url": null,
+    "live_url": null,
+    "year": "2025"
+  },
+  {
+    "id": 4,
+    "title": "App de Eventos (Flutter) + API Laravel",
+    "description": "Aplicativo mobile com feed, agenda e notificações. API segura, paginação e upload de mídia.",
+    "stack": ["Flutter", "Laravel API", "JWT"],
+    "repo_url": null,
+    "live_url": null,
+    "year": "2025"
+  },
+  {
+    "id": 3,
+    "title": "Portal Interno – Gestão de Usuários", 
+    "description": "CRUD de usuários com papéis, upload de avatar, logs de acesso e filtros avançados. Layout responsive com Tailwind.", 
+    "stack": ["Laravel", "Tailwind", "MySQL"], 
+    "repo_url": null, 
+    "live_url": null, 
+    "year": "2024"
+  },
+  {
+    "id": 5,
+    "title": "Landing & Dashboard analítico",
+    "description": "Landing performática e dashboard com métricas de produto, charts e exportações.",
+    "stack": ["Vue 3", "Tailwind", "Chart.js", "API REST"],
+    "repo_url": null,
+    "live_url": null,
+    "year": "2024"
+  }
+]

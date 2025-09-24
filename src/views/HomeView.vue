@@ -45,10 +45,10 @@ const techs: Tech[] = [
 
     <div class="px-6 py-16 md:py-24 max-w-6xl mx-auto">
       <h1 class="mt-2 text-4xl md:text-6xl font-extrabold tracking-tight">
-        Eu construo <span class="text-fuchsia-400">sistemas web em Laravel</span> e <span class="text-sky-400">interfaces rápidas</span>.
+        Eu construo <span class="text-fuchsia-400">sistemas web </span> e <span class="text-sky-400">interfaces rápidas</span>.
       </h1>
       <p class="mt-4 text-lg text-neutral-400 max-w-2xl">
-        Do backend ao front: <strong>Laravel</strong> (APIs e <em>sistemas web completos</em> com Blade/Inertia/Vue), autenticação JWT, RBAC, filas, testes e integração com aplicações móveis.
+        Do backend ao front: <strong></strong> (APIs e <em>sistemas web completos</em>), autenticação JWT, RBAC, filas, testes e integração com aplicações móveis.
       </p>
 
       <div class="mt-8 flex flex-wrap gap-3">
