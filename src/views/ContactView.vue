@@ -9,7 +9,7 @@ const email = ref('')
 const project = ref('')
 const message = ref('')
 
-const PHONE = '+5538998352469'     
+const PHONE = '+5538998352469'
 const EMAIL = 'gugusimbr@gmail.com'
 
 function buildSummary() {
@@ -63,47 +63,19 @@ function send(kind: 'mail' | 'wa') {
       <div class="md:col-span-2 p-6 rounded-2xl border border-neutral-800 bg-neutral-950/50">
         <form class="space-y-4" @submit.prevent>
           <div class="grid md:grid-cols-2 gap-4">
-            <input
-              v-model="name"
-              type="text"
-              placeholder="Seu nome"
-              class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full"
-            />
-            <input
-              v-model="email"
-              type="email"
-              placeholder="Seu e-mail (opcional)"
-              class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full"
-            />
+            <input v-model="name" type="text" placeholder="Seu nome" class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full" />
+            <input v-model="email" type="email" placeholder="Seu e-mail (opcional)" class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full" />
           </div>
 
-          <input
-            v-model="project"
-            type="text"
-            placeholder="Nome do projeto"
-            class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full"
-          />
+          <input v-model="project" type="text" placeholder="Nome do projeto" class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full" />
 
-          <textarea
-            v-model="message"
-            rows="6"
-            placeholder="Descreva brevemente o projeto, objetivo e o que precisa ser entregue."
-            class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full"
-          ></textarea>
+          <textarea v-model="message" rows="6" placeholder="Descreva brevemente o projeto, objetivo e o que precisa ser entregue." class="px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 w-full"></textarea>
 
           <div class="flex flex-wrap gap-3">
-            <button
-              type="button"
-              @click="send('mail')"
-              class="px-5 py-3 rounded-xl bg-fuchsia-600 hover:bg-fuchsia-500 text-white"
-            >
+            <button type="button" @click="send('mail')" class="px-5 py-3 rounded-xl bg-fuchsia-600 hover:bg-fuchsia-500 text-white">
               Enviar por e-mail
             </button>
-            <button
-              type="button"
-              @click="send('wa')"
-              class="px-5 py-3 rounded-xl border border-neutral-700 hover:bg-neutral-900"
-            >
+            <button type="button" @click="send('wa')" class="px-5 py-3 rounded-xl border border-neutral-700 hover:bg-neutral-900">
               Falar no WhatsApp
             </button>
           </div>
